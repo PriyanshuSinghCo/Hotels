@@ -2,8 +2,6 @@ const express = require('express');
 const router = express('../models/MenuItem');
 const MenuItem = require('../models/MenuItem')
 
-
-
 //Post ka use data ko database mein save karne ke lye karty hain
 router.post('/', async(req, res) => {
     try {
